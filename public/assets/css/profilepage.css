@@ -1,0 +1,98 @@
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 0.46875rem 2.1875rem rgb(90 97 105 / 10%), 0 0.9375rem 1.40625rem rgb(90 97 105 / 10%), 0 0.25rem 0.53125rem rgb(90 97 105 / 12%), 0 0.125rem 0.1875rem rgb(90 97 105 / 10%);
+}
+
+.card .card-body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.author-box .author-box-center {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.author-box .author-box-picture {
+    width: 100px;
+    box-shadow: 0 4px 25px 0 rgb(0 0 0 / 10%);
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.author-box .author-box-name {
+    font-size: 18px;
+}
+
+.author-box .author-box-name a {
+    font-weight: 600;
+    color: #6777ef;
+}
+
+.author-box .author-box-job {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    color: #34395e;
+}
+
+.card .card-header {
+    border-bottom-color: #f9f9f9;
+    line-height: 30px;
+    align-self: center;
+    width: 100%;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+p,
+ul:not(.list-unstyled),
+ol {
+    line-height: 28px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+a#home-tab2,
+a#profile-tab2 {
+    color: #6777ef;
+}
+
+a#home-tab2:active,
+a#profile-tab2:active {
+    background-color: #fff;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.tab-bordered .tab-pane {
+    padding: 15px;
+    border: 1px solid #ededed;
+    margin-top: -1px;
+}
